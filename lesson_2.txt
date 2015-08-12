@@ -1,0 +1,19 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository, you make it available to start tracking
+changes to the files contained within. You have to initialize it before
+you can start committing changes to the files. You also will not be able
+to see any changes, nor be able to view logs of commits - because there
+will not be any commits yet.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is different from the working directory and the repository
+because it is a virtual (but still physical) place where the files ready to 
+be committed are placed so that they are separated visually whenever the user
+runs the "git status" command. I think that the value is that the difference
+of files shows up visually to the user. This is much like the commit window
+of our CVS system that shows which files are being committed to the repository.
+
