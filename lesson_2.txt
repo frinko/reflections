@@ -17,3 +17,11 @@ runs the "git status" command. I think that the value is that the difference
 of files shows up visually to the user. This is much like the commit window
 of our CVS system that shows which files are being committed to the repository.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Well, I guess that you can simply run the "git status" to keep checking to see
+what files have been changed, and then what files are in the staging area. Since
+it is easy to commit changes, then we should get into the practice of committing
+often and then it will be easier to have the changes become more logical changes.
+
