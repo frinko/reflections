@@ -35,3 +35,11 @@ existing master branch. This separation would keep the master branch intact whil
 you could keep on working on the experimental branch. This separation would also
 keep your code more organized by being able to accurately and easily track the
 files that changed in your experimental changes.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help you see how different code commits are related to each other. By
+drawing the branches, you are able to determine quickly the path that you need to
+take in order to checkout and/or merge your new branched code back into the master
+branch.
