@@ -25,3 +25,13 @@ what files have been changed, and then what files are in the staging area. Since
 it is easy to commit changes, then we should get into the practice of committing
 often and then it will be easier to have the changes become more logical changes.
 
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+I feel like a situation when branches would be helpful would be if you wanted to
+introduce a new feature to a program and yet make sure that you did not affect the
+existing master branch. This separation would keep the master branch intact while
+you could keep on working on the experimental branch. This separation would also
+keep your code more organized by being able to accurately and easily track the
+files that changed in your experimental changes.
