@@ -43,3 +43,18 @@ The diagrams help you see how different code commits are related to each other. 
 drawing the branches, you are able to determine quickly the path that you need to
 take in order to checkout and/or merge your new branched code back into the master
 branch.
+
+
+What is the result of merging two branches together? Why do we represent it in the
+diagram the way we do?
+
+The result of merging two branches together is one final branch. Usually this is
+performed to merge other branches into the master branch so that it can be seen
+as a code update into the reliable stable code. The result in the final branch is
+attempted to be merged automatically by keeping the changes that are introduced
+and only removing the changes that are removed from both branches. It does this
+by comparing the differences with the parent commit from whence the branch was
+made. We represent it as a drawing so that the idea is solidified in our mind
+that two are becoming one. The diagram helps us to see why we can then delete
+the old branch now - not because the code doesn't exist, but rather because the
+branch is simply now an unreachable label.
