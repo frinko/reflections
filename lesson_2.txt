@@ -58,3 +58,23 @@ made. We represent it as a drawing so that the idea is solidified in our mind
 that two are becoming one. The diagram helps us to see why we can then delete
 the old branch now - not because the code doesn't exist, but rather because the
 branch is simply now an unreachable label.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+I think that one pro of Git's automatic merging is that when changes are easily
+explainable (e.g. The changes both occur in different sections), then there is
+no merge conflict generated. This is helpful when there are more than one person
+working on a project - both in different sections - and they have to modify the
+same file even though they each are working in different sections. One example
+would be in our projects where two features are being developed in a web application
+and they have to both update the struts-config.xml file. In this case, since both
+updates are not conflicting with each other, Git will automatically merge the two
+copies of struts-config.xml without generating a merge conflict. If we were using
+our older CVS, then a merge conflict would always generate no matter if the code
+changes didn't interfere with each other. This is a pro for Git compared with
+always having to do merges manually with CVS. I would think that a con is limited
+to when Git mistakes and introduces a bug in the code, but I wonder how often this
+would actually happen.
+
