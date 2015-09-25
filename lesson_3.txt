@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+I would want to use a remote repository whenever I had to share a project with other people that were not located near me. For example, if the other contributers were located in a different town, or even country then they would not have access to the files on my local site. Even if I used a repository that was located on a company's premises, it would still limit the ability of the people to work and commit code if they were not on site - unless they went through all of the access controls to establish a remote session, etc.
