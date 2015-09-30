@@ -1,3 +1,24 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-I would want to use a remote repository whenever I had to share a project with other people that were not located near me. For example, if the other contributers were located in a different town, or even country then they would not have access to the files on my local site. Even if I used a repository that was located on a company's premises, it would still limit the ability of the people to work and commit code if they were not on site - unless they went through all of the access controls to establish a remote session, etc.
+I would want to use a remote repository whenever I had to share a project with other
+people that were not located near me. For example, if the other contributers were
+located in a different town, or even country then they would not have access to the
+files on my local site. Even if I used a repository that was located on a company's
+premises, it would still limit the ability of the people to work and commit code if
+they were not on site - unless they went through all of the access controls to
+establish a remote session, etc.
+
+
+Why might you want to always pull changes manually rather than having Git automatically
+stay up-to-date with your remote repository?
+
+I think that you might want to always pull changes manually as opposed to having them
+stay in sync automatically because your local copy would always have the updates that
+you were currently working on and if you have not committed them yet, and the repos
+were set to keep in sync automatically, then there would be the chance to have your
+updates or changes overwritten. This would be horrible and could make you loose your
+work that you were working on and then you would have to manually remember what you 
+were updating and then have to update it again. Also, I think that it follows common
+reasoning and a logical flow that the remote repo is the final storage location, or 
+can even be thought of as a stable branch - even though you can have multiple branches
+for this concept.
