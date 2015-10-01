@@ -22,3 +22,18 @@ were updating and then have to update it again. Also, I think that it follows co
 reasoning and a logical flow that the remote repo is the final storage location, or 
 can even be thought of as a stable branch - even though you can have multiple branches
 for this concept.
+
+
+Describe the differences between forks, clones, and branches. When would you use one
+instead of another?
+
+A fork is a type of clone that only occurs on GitHub (GH). GH uses this term to show
+and describe the relationship of cloning someone else's repository. GH also records
+this information to maintain a history of where the forked repository originated from.
+Cloning is when git makes a copy of an entire repository which would include all of
+the branches. You would fork someone's repository on GH whenever you want to make your
+own changes without affecting the other repository. You would clone repositories
+whenever you are wanting to make a local copy of your GH repository. Brancing is when
+you are making changes that you do not want to affect the master branch of code. These
+changes can still be merged back in if desired. Branches are a deviation from a certain
+state of another branch, most likely originating from the master branch.
