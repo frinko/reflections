@@ -37,3 +37,13 @@ whenever you are wanting to make a local copy of your GH repository. Brancing is
 you are making changes that you do not want to affect the master branch of code. These
 changes can still be merged back in if desired. Branches are a deviation from a certain
 state of another branch, most likely originating from the master branch.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+One benefit of having a copy of the last known state of the remote stored locally is
+that when you make changes offline and then mess up, you can revert a change back to the
+original state stored of a remote repository. Another benefit would be if in the process
+of making your changes you accidently delete some of the original code. Upon testing the
+new code, once you realize the bug, you would then have the original remote state stored
+locally to compare and easily find your bug in order to fix it.
