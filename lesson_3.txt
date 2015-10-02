@@ -60,3 +60,14 @@ then the first developer would refresh his local codebase with the new updated r
 codebase. Obviously this is much harder than what I just learned with Git, and clearly
 GitHub makes the process even easier. Not only is the process usually automated, but a
 few of the steps are even removed and are no longer necessary.
+
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+You would want to make changes in a separate branch if you were testing out a new feature
+or a new fix for that codebase that someone else is also working on. By creating a
+separate branch you give yourself the option to then create pull requests which brings
+in the social aspect for code collaboration between your team. If you were the only team
+member or working on a small quick bug fix then it would be fine to work directly off of
+the master branch.
