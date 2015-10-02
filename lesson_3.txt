@@ -47,3 +47,16 @@ original state stored of a remote repository. Another benefit would be if in the
 of making your changes you accidently delete some of the original code. Upon testing the
 new code, once you realize the bug, you would then have the original remote state stored
 locally to compare and easily find your bug in order to fix it.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what
+would be harder?
+
+I don't really know how I would automatically collaborate without Git or GitHub. Currently,
+we use CVS and rarely there are multiple developers working on the same codebase. If this
+does happen then we just make sure that one developer first commits and then the other
+developer will try to commit and merge the two codebases to make the new codebase. After,
+then the first developer would refresh his local codebase with the new updated remote
+codebase. Obviously this is much harder than what I just learned with Git, and clearly
+GitHub makes the process even easier. Not only is the process usually automated, but a
+few of the steps are even removed and are no longer necessary.
